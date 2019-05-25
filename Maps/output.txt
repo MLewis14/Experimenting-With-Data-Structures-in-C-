@@ -1,0 +1,46 @@
+rlevitan-macbook-air:4-map rlevitan$ g++ --std=c++11 main.cpp
+rlevitan-macbook-air:4-map rlevitan$ ./a.out gutenberg/whitman-leaves.txt 
+with, me:
+with appears 1245 times
+with, me appears 46 times
+0.0369478
+the, grass:
+the appears 10029 times
+the, grass appears 20 times
+0.00199422
+the, king:
+the appears 10029 times
+the, king appears 1 times
+9.97108e-05
+to, you:
+to appears 2150 times
+to, you appears 81 times
+0.0376744
+rlevitan-macbook-air:4-map rlevitan$ ./a.out gutenberg/shakespeare-macbeth.txt 
+with, me:
+with appears 153 times
+with, me appears 2 times
+0.0130719
+Bigram the, grass not found
+the, king:
+the appears 647 times
+the, king appears 11 times
+0.0170015
+to, you:
+to appears 383 times
+to, you appears 10 times
+0.0261097
+rlevitan-macbook-air:4-map rlevitan$ ./a.out gutenberg/austen-emma.txt 
+with, me:
+with appears 1208 times
+with, me appears 30 times
+0.0248344
+Bigram the, grass not found
+the, king:
+the appears 5146 times
+the, king appears 1 times
+0.000194326
+to, you:
+to appears 5149 times
+to, you appears 78 times
+0.0151486
